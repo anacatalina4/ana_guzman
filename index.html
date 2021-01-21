@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Hello World Pale Blue Dot</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="images/logo.svg" alt="logo"/>
+            <nav class="main-menu">
+                <input type="checkbox" class="burger-menu-checkbox" id="burger-checkbox" />
+                <label for="burger-checkbox" class="fa fa-bars burger-menu"></label>
+                <ul class="menu-list">
+                    <li><a class="menu-items" href="#episodios">Episodios</a></li>
+                    <li><a class="menu-items" href="#nosotros">Nosotros</a></li>
+                    <li><a class="menu-items" href="#entrevistas">Entrevistas</a></li>
+                    <li><a class="menu-items" href="#topicos">Tópicos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1 class="title">Hello <span class="strike">world</span> pale blue dot.</h1>
+            <p class="podcast-description">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <a class="podcast-link conoce-mas">Conocé más</a>
+            <section class="episodes-section">
+                <h2 class="subtitle subtitle-episodios" id="episodios">Episodios</h2>
+                <div class="podcasts">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/6bDHx1y2KKjWpeRWxBvZM9" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" allow="encrypted-media"></iframe>
+                </div>
+            </section>
+            <section class="section-extrainfo">
+                <div class="phone-moreinfo" id="nosotros">
+                    <img class="phone-image" src="images/phone.png" alt="Fotografía The Secret History of Women in Coding"/>
+                    <div class="section-donde-venimos">
+                        <h2 class="subtitle subtitle-de-donde-venimos">De dónde venimos</h2>
+                        <p class="de-donde-venimos-descripcion">
+                            Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+                            Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves. 
+                        </p>
+                    </div>
+                </div>
+                <h2 class="subtitle subtitle-invitados" id="entrevistas">Invitadas/os estelares</h2>
+                <div class="collage">
+                    <img class="image-collage" src="images/grace-hopper.png" alt="Fotografía de Grace Hopper" />
+                    <img class="image-collage" src="images/Katie-Bouman.png" alt="Fotografía de Katie Bouman"/>
+                    <img class="image-collage" src="images/Margaret_Hamilton.png" alt="Fotografía de Margaret Hamilton"/>
+                    <img class="image-collage" src="images/An_E.R.A.Univac.png" alt="Fotografía Univac 1103 Computer in 1950s"/>
+                    <img class="image-collage" src="images/Computer_operators_with_an_Eniac.png" alt="Fotografía primer computador programable"/>
+                    <img class="image-collage" src="images/susan-kare.png" alt="Fotografía Susan Kare"/>
+                </div>
+                <h2 class="subtitle subtitle-temas" id="topicos">Algunos de nuestros temas</h2>
+                <ul class="temas">
+                    <li>
+                        <img class="icon-temas" src="images/icon1.svg" alt="Trabajo Remoto"/>
+                        <div class="temas-texto">Trabajo Remoto</div>
+                    </li>
+                    <li>
+                        <img class="icon-temas" src="images/icon2.svg" alt="Repensando la programación"/>
+                        <div class="temas-texto">Repensando la programación</div>
+                    </li>
+                    <li>
+                        <img class="icon-temas" src="images/icon3.svg" alt="Bases del código"/>
+                        <div class="temas-texto">Bases del código</div>
+                    </li>
+                    <li>
+                        <img class="icon-temas" src="images/icon4.svg" alt="Seguridad Informática"/>
+                        <div class="temas-texto">Seguridad Informática</div>
+                    </li>
+                </ul>
+            </section>
+            <section class="bottom-section">
+                <h3 class="subtitle subtitle-novedades">¿Querés las últimas novedades?</h3>
+                <a class="podcast-link novedades">Escuchá los episodios</a>
+            </section>
+        </article>
+        <footer class="footer">
+            <p class="bottom-info">© 2020 - Hello blue pale dot</p>
+            <div class="social-button-container">
+                <div class="social-button fa fa-spotify"></div>
+                <div class="social-button fa fa-instagram"></div>
+                <div class="social-button fa fa-twitter"></div>
+                <div class="social-button fa fa-facebook"></div>
+                <div class="social-button fa fa-telegram"></div>
+            </div>
+        </footer>
+    </body>
+</html>
